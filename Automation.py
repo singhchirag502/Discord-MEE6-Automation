@@ -3,7 +3,7 @@ mouse=Controller()
 import time
 from pynput.keyboard import Key, Controller
 keyboard=Controller()
-'''
+
 #l=['Maybe our team will get your some liverage','Because you gys are soo ','inactive','You knw wt guys ??','Only last 2 days of workshop is left.','All I know is that, we are gonna end up forminga Madian Family and memory that we will never forget.','Its for the first time , I am connected to so many people across the whole nation.','Were gonna call this as MAD family']
 l=["Day 0 is into..we learned bout internet and how it works",
 "Day 1 is when we setup our Django environment"," and created WebApp and flipkart",
@@ -36,7 +36,7 @@ l=["Day 0 is into..we learned bout internet and how it works",
 "those are the values we have for properties",
 "we saw how we can link css files externally",
 "We will be getting a 5 day break after the session where can re watcj the session."]
-'''
+
 l=[" play senorita","!play senorita",
    " play perfect","!play perfect",
    " play closer","!play closer",
@@ -64,7 +64,7 @@ l=[" play senorita","!play senorita",
    
 time.sleep(7)
 for i in range(len(l)-1):
-    '''
+    
     mouse.position =(954,627)
     time.sleep(1)
     mouse.position = (1078, 590)
@@ -77,7 +77,7 @@ for i in range(len(l)-1):
     keyboard.press(Key.enter)
     keyboard.release(Key.enter)
     time.sleep(2)
-    '''
+    
     keyboard.type(l[i])
     time.sleep(1)
     keyboard.press(Key.enter)
